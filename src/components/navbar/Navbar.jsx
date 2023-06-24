@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import React from "react";
+import styles from "./navbar.module.css";
 
 const links = [
   {
@@ -42,7 +43,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <Link href="/">OTP Docs</Link>
       <div>
         {links.map((link) => (
