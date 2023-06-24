@@ -4,7 +4,12 @@ import styles from './page.module.css'
 const Contact = () => {
   return (
     <div className={styles.container}>
-      Contact
+      <h1 className={styles.title}>Let's keep in Touch</h1>
+      <div className={styles.content}>
+      <div className={styles.imgContainer}></div>
+      <form className={styles.form}></form>
+
+      </div>
     </div>
   )
 }
