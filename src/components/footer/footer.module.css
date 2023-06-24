@@ -1,6 +1,7 @@
 .container {
     height: 50px;
     display: flex;
+    font-size: small;
     align-items: center;
     justify-content: space-between;
 }
@@ -9,4 +10,9 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.icon {
+    opacity: 0.6;
+    cursor: pointer;
 }
