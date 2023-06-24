@@ -38,3 +38,13 @@
   font-size: 24px;
   font-weight: 300;
 }
+
+.btn {
+  padding: 20px;
+  cursor: pointer;
+  background-color: #53c28b;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+}
