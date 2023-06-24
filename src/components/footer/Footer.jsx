@@ -3,7 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      Footer
+      <div><span>&copy; {new Date().getFullYear()} Otofast Project</span> </div>
+      <div></div>
     </div>
   )
 }
